@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+
+    <h3 class="header">Project 11 Sign-In</h3>
+    <div class="container" >
+        <form action="/" method="POST" onsubmit="refreshPage()">
+            <label for="email" style="font-size: 20px;">Email:</label><br>
+            <input type="text" id="email" name="email" required><br>
+            <label for="password" style="font-size: 20px;">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    
+    <div style="font-size: 20px; color: gray; margin-top: 30px; margin-bottom: 10px;">Don't have an account? </div>
+    <a href="/register"><button class="register-button">Register Here</button></a>
+    <div style="font-size: 20px; color: gray; margin-top: 7px; margin-bottom: 12px;">Or</div>
+
+    <a href="/login" style="text-decoration: none;">  
+        <div id="g_id_onload" class="g_id_signin" data-auto_prompt="false"
+            data-type="standard"
+            data-size="large"
+            data-theme="filled_blue"
+            data-text="sign_in_with"
+            data-shape="rectangular"
+            data-logo_alignment="left"
+            data-ux_mode="redirect">        
+        </div>     
+    </a>
+
+    <script>
+        function refreshPage() {
+            // This function will be called when the form is submitted
+            location.reload();
+        }
+    </script>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    
+</body>
+</html>
