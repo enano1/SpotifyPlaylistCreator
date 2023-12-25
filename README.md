@@ -31,7 +31,9 @@ The application tokenizes a given sentence and uses each word to generate a Spot
 
 ### API Integration
 - **Spotify**: Michael, Paul
-- **DOG API**: Farzaan, Matias
+- **DOG API**: Micael, Paul
+
+## Video Coordinator: Matias
 
 ## Setup Instructions
 
