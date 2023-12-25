@@ -1,5 +1,8 @@
 # SpotifyPlaylistCreator
 
+##Video Link
+https://youtu.be/f4swMqsFVGQ
+
 ## Project Overview
 SpotifyPlaylistCreator is an innovative application that creates unique Spotify playlists based on individual words in a sentence. It utilizes Spotify's API for playlist generation and DOG API's image generator for creating unique playlist cover images.
 
